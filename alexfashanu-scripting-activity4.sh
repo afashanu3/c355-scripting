@@ -1,3 +1,10 @@
+#!/bin/bash
+#Write a script to validate how secure someone's password is.
+#Things you would care about:
+#Length should be 8 or more characters
+#The password should contain numbers and letters
+#There should be both uppercase and lowercase letters
+
 echo "What is your password? $password"
 read password
 
